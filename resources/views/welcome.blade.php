@@ -2,9 +2,9 @@
 @section('title', "Giacomelli giardini")
 @section('main_content')
 <div>
-    <div class="py-5 bg-light border-bottom mb-4">
-        <div class="container">
-            <div class="text-center my-5">
+    <div class=" bg-light mb-4">
+        <div>
+            <div class="text-center">
                 <div class="hero_welcome">
                     <img src="/img/Scarpata.jpg" alt="">
                 </div>
@@ -16,7 +16,8 @@
 
         <div class="text-center">
             
-            <h1>Contenuto della home</h1>
+            <h1>Giacomelli Fakehome</h1>
+            <p>Description Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
         </div>
 
     </div>

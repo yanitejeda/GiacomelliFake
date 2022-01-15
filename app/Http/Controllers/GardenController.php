@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Garden;
 use Illuminate\Http\Request;
 
 class GardenController extends Controller
@@ -13,6 +14,8 @@ class GardenController extends Controller
      */
     public function index()
     {
+        $gardens = Garden::all();
+        return view('Gardens.index', compact('gardens'));
         //
     }
 
@@ -23,7 +26,9 @@ class GardenController extends Controller
      */
     public function create()
     {
-        //
+        return view("Gardens.create");
+        //Garden/create 
+        
     }
 
     /**

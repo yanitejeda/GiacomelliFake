@@ -3,7 +3,7 @@
     <div class="container">
         
         <div class="text-center">
-            <h6>footer</h6>
+            <p>footer</p>
         </div>
     </div>
 </div>
