@@ -15,6 +15,11 @@ class CreateGardensTable extends Migration
     {
         Schema::create('gardens', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->string('subtitle')->nullable();
+            $table->longText('description')->nullable();
+            $table->string('coverImg');
+            $table->string('category')->nullable();
             $table->timestamps();
         });
     }
